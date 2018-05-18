@@ -1,0 +1,35 @@
+[
+    {
+        "id": "627c7158.b7f928",
+        "type": "ui_text",
+        "z": "51926b06.76a294",
+        "group": "383fd3c1.eba2dc",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Dropsuccess:",
+        "format": "{{msg.payload.dropsuccess}}",
+        "layout": "row-spread",
+        "x": 1020,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "383fd3c1.eba2dc",
+        "type": "ui_group",
+        "z": "",
+        "name": "plmsys",
+        "tab": "dd886f45.836bb",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "dd886f45.836bb",
+        "type": "ui_tab",
+        "z": "",
+        "name": "plmsys",
+        "icon": "dashboard"
+    }
+]
